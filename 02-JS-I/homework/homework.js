@@ -50,7 +50,7 @@ function resta(x, y) {
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  var resultado = x + y;
+  var resultado = x * y;
   return resultado;
   
 }
@@ -66,12 +66,15 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x === y) {
+  if(x === y){
     return true;
-  } else
+  }else{
     return false;
+  }
+  }
+    
   
- }
+ 
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
@@ -274,8 +277,6 @@ function esVocal(letra){
     return "Dato incorrecto";
   }
 }
-  
-
 }
 
 
